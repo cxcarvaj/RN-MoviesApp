@@ -21,6 +21,7 @@
     "react-native-screens": "^3.29.0"
   },
   "devDependencies": {
+    "axios": "^1.6.8",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
