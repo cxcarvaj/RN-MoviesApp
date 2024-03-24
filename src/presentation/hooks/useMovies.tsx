@@ -8,8 +8,8 @@ export const useMovies = () => {
 
   const [nowPlaying, setNowPlaying] = useState<Movie[]>([]);
   const [popular, setPopular] = useState<Movie[]>([]);
-  const [topRated, setTopRated] = useState<Movie[]>();
-  const [upcoming, setUpcoming] = useState<Movie[]>();
+  const [topRated, setTopRated] = useState<Movie[]>([]);
+  const [upcoming, setUpcoming] = useState<Movie[]>([]);
 
   useEffect(() => {
     initialLoad();
