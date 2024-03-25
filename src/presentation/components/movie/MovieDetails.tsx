@@ -52,10 +52,10 @@ export const MovieDetails = ({movie, cast}: Props) => {
 
         <FlatList
           data={cast}
+          keyExtractor={item => item.id.toString()}
           horizontal
           showsHorizontalScrollIndicator={false}
           renderItem={({item}) => <CastActor actor={item} />}
-          keyExtractor={item => item.id.toString()}
         />
       </View>
     </>
