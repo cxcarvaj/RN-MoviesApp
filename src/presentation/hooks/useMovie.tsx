@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import * as UseCases from '../../core/use-cases';
-import {movieDBFetcher} from '../../config/adapters/movieDB.adapter..ts';
+import {movieDBFetcher} from '../../config/adapters/movieDB.adapter.ts';
 import type {FullMovie} from '../../core/entities/movie.entity.ts';
 import type {Cast} from '../../core/entities/cast.entity.ts';
 

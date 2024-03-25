@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import type {Movie} from '../../core/entities/movie.entity.ts';
 import * as UseCases from '../../core/use-cases';
-import {movieDBFetcher} from '../../config/adapters/movieDB.adapter..ts';
+import {movieDBFetcher} from '../../config/adapters/movieDB.adapter.ts';
 
 let popularPageNumber: number = 1;
 
